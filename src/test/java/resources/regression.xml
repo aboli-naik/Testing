@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="Functional Test Suite">
+
+
+    <test name="Login Test" preserve-order="true">
+        <parameter name="name" value="Login Test"/>
+        <classes>
+            <class name="org.bits.demo.test.LoginTest"/>
+
+
+        </classes>
+    </test>
+
+</suite>
